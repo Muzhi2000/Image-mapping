@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta content="width=devive-width, initial-scale-1.0">
+        <title>Image mapping</title>
+       
+
+    </head>
+    <body style="background-color: rgb(154, 221, 199);">
+        <ul class="ALL">
+            <li><a href="picture.html"> First page</a></li>
+            <li><a href="grape.html"> Second page</a></li>
+            <li><a href="orange.html"> Third page</a></li>
+            <li><a href="apple.html"> last page</a></li>
+        </ul>
+        <h1>Welcome to the world of fruites</h1>
+        <p style="color:rgb(27, 151, 22); font-size: 30px;">Please click on the pictures to read the informations about them.</p>
+        <img src="image 1.jfif" alt="image" height="400px" width="350px" usemap="#fruite1-map">
+        <map name="#fruite1-map">
+            <area shape="rect" coords="4,398,346,2" href="grape.html" title="grape">
+        </map>
+        <img src="image 2.jfif" alt="image" height="400px" width="350" style="position: relative; left: 10%;" usemap="#2-map">
+        <map name="#2-map">
+            <area shape="rect" coords="4,394,346,2" href="orange.html" title="orange">
+        </map>
+        <img src="image 3.jfif" alt="apple" height="400px" width="350px" usemap="#3-map" style="position: relative;left: 20%;" >
+        <map name="#3-map">
+            <area shape="rect" coords="3,394,345,3" href="apple.html" title="apple">
+        </map>
+
+        
+           
+        
+     
+    </body>
+</html>
